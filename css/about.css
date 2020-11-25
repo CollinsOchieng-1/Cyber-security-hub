@@ -22,6 +22,8 @@ body{
 }
 .hero-text h2{
     font-size: 36px;
+    color: #4497D0;
+    font-weight: 700;
 }
 .main{
     border: 2px solid white;
@@ -62,7 +64,7 @@ body{
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 55%;
+  width: 50%;
   border: none;
   text-align: left;
   outline: none;
@@ -85,33 +87,15 @@ body{
   width: 50%;
  
 }
+/* end of main */
 
-
-#one{
-  border: 1px solid grey;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial; 
+.avatar img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
-.card{
-    border: 5px;
-    margin: 40%;
-    display: flex;
-    justify-content: space-between;
-    float: left;
-}
-
-.footer {
-    border: 3px solid grey;
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: grey;
-   color: white;
-   text-align: center;
-   padding: 16px;
-   margin-top: 50px;
+.h1-responsive{
+    color: #4497D0;
 }
