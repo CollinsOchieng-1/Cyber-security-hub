@@ -65,7 +65,8 @@ body{
     border: 2px solid white;
     background-color: white;
     margin-top: 5vh;
-    margin-right: 10%;
+    margin-right: auto;
+    margin-left: auto;
     padding: 10px 10px;
     color: black;
     overflow: hidden;
@@ -88,38 +89,23 @@ body{
 }
 
 .statements{
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
-}
-.dropdown{
-  background-color: #4497D0;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 50%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  margin-top: 10px; 
-  
-}
-
-.active, .dropdown:hover {
-  background-color: #4497;
 }
 
 .text{
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(50, 187, 171);
-  color: black;
-  width: 50%;
+  color: white;
+  width: 100%;
  
 }
 /* end of main */
@@ -135,7 +121,7 @@ body{
 .heading{
  text-align: center;
  color: #4497D0;
- margin-top: 15px;
+ margin: auto;
 }
 
 .user-review{
@@ -143,6 +129,9 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 
 .review{
@@ -151,6 +140,8 @@ body{
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
+  align-items: center;
+ 
 
 }
 .review:hover{
