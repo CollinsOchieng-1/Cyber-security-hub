@@ -106,10 +106,11 @@ color: #FFFFFF;
 }
 .portfolio{
     position: absolute;
-width: 315px;
+width: 370px;
 height: 340px;
 left: 10px;
 top: 703px;
+line-height: 40px;
 border: 1px solid white;
 box-sizing: border-box;
 
