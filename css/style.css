@@ -56,7 +56,6 @@
         text-align: center;
         margin-top: 0%;
         list-style-type: none;
-        
     }
     .header{
         text-align: center;
@@ -72,20 +71,13 @@
         margin-right: auto;
         width: 50%;
     }
-    button {
+    .apply {
       padding: 10px;
-      background: #0088f7;
       margin: 10px 40%;
       width: 200px;
       border-radius: 5px;
-      border: #0088f7 2.5px solid;
-      color: #fff;
+      color: darkblue;
       font-size: 15px;
-    }
-    button:hover {
-      transition: all 0.5s ease-in-out;
-      background: inherit;
-      border: #0088f7 2.5px solid;
     }
     .container_navbarmenu {
       margin: 0;
