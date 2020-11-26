@@ -1,4 +1,5 @@
 body{
+  margin: 0;
     background-color:black;
    
 }
@@ -44,7 +45,7 @@ body{
     position: absolute;
 width: 1328px;
 height: 279px;
-left: 10px;
+left: 0px;
 top: 71px;
 }
 h2{
@@ -76,7 +77,7 @@ color: #FFFFFF;
     position: absolute;
 width: 1328px;
 height: 369px;
-left: 10px;
+left: 0px;
 top: 350px;
 margin: 0px;
 }
@@ -111,7 +112,7 @@ height: 340px;
 left: 10px;
 top: 703px;
 line-height: 40px;
-border: 1px solid white;
+
 box-sizing: border-box;
 
 color:white;
@@ -119,7 +120,7 @@ color:white;
 }
 .rect3{
     position: absolute;
-width: 946px;
+width: 970px;
 height: 367px;
 left: 393px;
 top: 719px;
@@ -129,11 +130,10 @@ margin: 0px;
 .contact{
   position: absolute;
 width: 600px;
-height: 402px;
-left: 16px;
-top: 1150px;
+height: 400px;
+left: 0px;
+top: 1085px;
 color:white;
-
 display: inline-flex;
 background-color: #414141;
 border-radius: 4.5px;
@@ -149,18 +149,58 @@ margin: 0 0 10px 0;
 .contact>ul>li{
   list-style-type: none;
   padding: 10px;
+  text-align: left;
+  margin-top: 20px;
 }
-
-
-
-.container_footer{
+footer{
     position: absolute;
     width: 325px;
     height: 28px;
-    left: 515px;
-    top: 1346px;
-   
+    left: 400px;
+    top: 1430px;
+  
    
     text-decoration-line: underline;
     color:white;
+}
+.container_form {
+  background-color: #3f3f3f;
+  padding: 20px;
+  display: block;
+  margin: 20px 0;
+}
+.container_form:hover {
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 3.5px 8px 0 #494949;
+}
+.container_form h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.container_form form {
+  padding: 0 50px;
+}
+.container_form form input {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 30px 0;
+  display: block;
+  border: 1px solid #bdb9b9;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.container_form form button {
+  padding: 10px;
+  background: #0088f7;
+  margin: 30px 0;
+  width: 200px;
+  border-radius: 5px;
+  border: #0088f7 2.5px solid;
+  color: #fff;
+  font-size: 15px;
+}
+.container_form form button:hover {
+  transition: all 0.5s ease-in-out;
+  background: inherit;
+  border: #0088f7 2.5px solid;
 }
