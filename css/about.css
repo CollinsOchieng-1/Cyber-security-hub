@@ -5,7 +5,10 @@
 body{
     background-color: black;
     color: white;
+<<<<<<< HEAD
+=======
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+>>>>>>> c83d8c2f8531aa4cb52d9b45d4cab2237e2b7c51
    
 }
 
@@ -40,7 +43,10 @@ body{
   
 .hero-image{
     background-image: linear-gradient(rgba(9, 9, 121, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cybersecurity.jpeg');
+<<<<<<< HEAD
+=======
     width: 100%;
+>>>>>>> c83d8c2f8531aa4cb52d9b45d4cab2237e2b7c51
     height: 500px;
     margin: 0;
     background-repeat: no-repeat;
@@ -65,8 +71,12 @@ body{
     border: 2px solid white;
     background-color: white;
     margin-top: 5vh;
+<<<<<<< HEAD
+    margin-right: 10%;
+=======
     margin-right: auto;
     margin-left: auto;
+>>>>>>> c83d8c2f8531aa4cb52d9b45d4cab2237e2b7c51
     padding: 10px 10px;
     color: black;
     overflow: hidden;
@@ -89,6 +99,40 @@ body{
 }
 
 .statements{
+<<<<<<< HEAD
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0;
+    
+}
+.dropdown{
+  background-color: #4497D0;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-top: 10px; 
+  
+}
+
+.active, .dropdown:hover {
+  background-color: #4497;
+}
+
+.text{
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: rgb(50, 187, 171);
+  color: black;
+  width: 50%;
+=======
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -106,6 +150,7 @@ body{
   background-color: rgb(50, 187, 171);
   color: white;
   width: 100%;
+>>>>>>> c83d8c2f8531aa4cb52d9b45d4cab2237e2b7c51
  
 }
 /* end of main */
@@ -121,7 +166,11 @@ body{
 .heading{
  text-align: center;
  color: #4497D0;
+<<<<<<< HEAD
+ margin-top: 15px;
+=======
  margin: auto;
+>>>>>>> c83d8c2f8531aa4cb52d9b45d4cab2237e2b7c51
 }
 
 .user-review{
@@ -129,9 +178,12 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
+=======
   margin: auto;
   left: 0;
   right: 0;
+>>>>>>> c83d8c2f8531aa4cb52d9b45d4cab2237e2b7c51
 }
 
 .review{
@@ -140,8 +192,11 @@ body{
   margin-bottom: 3.5rem;
   position: relative;
   overflow: hidden;
+<<<<<<< HEAD
+=======
   align-items: center;
  
+>>>>>>> c83d8c2f8531aa4cb52d9b45d4cab2237e2b7c51
 
 }
 .review:hover{
@@ -201,6 +256,10 @@ footer{
   position: relative;
   left: 0;
   bottom: 0;
+<<<<<<< HEAD
+  /* width: 100%; */
+=======
+>>>>>>> c83d8c2f8531aa4cb52d9b45d4cab2237e2b7c51
   margin-top: 10px;
   padding: 15px;
   background-color:grey;
