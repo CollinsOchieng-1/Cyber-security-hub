@@ -127,16 +127,32 @@ margin: 0px;
 
 }
 .contact{
-    position: absolute;
+  position: absolute;
 width: 600px;
 height: 402px;
 left: 16px;
 top: 1150px;
 color:white;
 
-
+display: inline-flex;
+background-color: #414141;
+border-radius: 4.5px;
+width: 100%;
+margin: 0 0 10px 0;
 
 }
+.contact:hover {
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 3.5px 8px 0 #494949;
+}
+
+.contact>ul>li{
+  list-style-type: none;
+  padding: 10px;
+}
+
+
+
 .container_footer{
     position: absolute;
     width: 325px;
