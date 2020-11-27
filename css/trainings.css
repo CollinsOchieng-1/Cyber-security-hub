@@ -75,7 +75,10 @@
       margin: 10px 40%;
       width: 200px;
       border-radius: 5px;
-      color: darkblue;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
       font-size: 15px;
     }
     .container_navbarmenu {
@@ -106,3 +109,20 @@
       transition: all 0.5s ease-in-out;
       border-radius: 12%;
     }
+
+    button {
+    padding: 10px;
+    background: #0088f7;
+    margin: 10px 40%;
+    width: 200px;
+    border-radius: 10px;
+    border: #0088f7 2.5px solid;
+    color: #fff;
+    font-size: 15px;
+  }
+  button:hover {
+    transition: all 0.5s ease-in-out;
+    background: inherit;
+    border: #0088f7 2.5px solid;
+    
+  }
