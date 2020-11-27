@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+  }
+  .body{
+    background-image: url(./images/wall2.jpeg);
+    background-size: cover;
+  }
+  .topnav {
+      overflow: hidden;
+      background-color: gray;
+    }
+    
+    .topnav a {
+      float: right;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      border-radius: 60px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: x-large;
+    }
+     .topnav a:hover {
+      background-color: white;
+      color: black;
+      align-items: center;
+    }
+    
+    .topnav a.active {
+      background-color: green;
+      color: white;
+  
+    }
+    .para{
+        margin: auto;
+        background-color: rgb(56, 54, 54);
+        color: white;
+        font-size: large;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .para2{
+        color: white;
+        background-color: rgb(56, 54, 54);
+        margin: auto;
+        font-size: large;
+        text-align: center;
+        margin: unset;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    ul{
+        color: white;
+        margin: auto;
+        background-color: rgb(56, 54, 54);
+        text-align: center;
+        margin-top: 0%;
+        list-style-type: none;
+    }
+    .header{
+        text-align: center;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+        margin-top: auto;
+        list-style-type: none;
+    }
+    .img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+ .apply {
+      padding: 10px;
+      margin: 10px 40%;
+      width: 200px;
+      border-radius: 5px;
+      color: darkblue;
+      font-size: 15px;
+    }
+    .container_navbarmenu {
+      margin: 0;
+    }
+     .container_navbarmenu ul {
+      background-color: #414141;
+      text-align: right;
+      list-style-type: none;
+      margin: 0;
+      padding: 26px;
+      overflow: hidden;
+    }
+    .container_navbarmenu ul li {
+      text-transform: uppercase;
+      display: inline;
+      padding: inherit;
+    }
+    .container_navbarmenu ul li a {
+      text-decoration: none;
+      text-align: center;
+      padding: 15px 13px;
+      color: #fff;
+      display: inline;
+    }
+    .container_navbarmenu ul li:hover {
+      background-color: #0ebbd3;
+      transition: all 0.5s ease-in-out;
+      border-radius: 12%;
+    }
